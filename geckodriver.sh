@@ -1,6 +1,8 @@
 sudo apt get update && sudo apt get upgrade
 
-wget "https://storage.googleapis.com/chrome-for-testing-public/119.0.6045.105/linux64/chromedriver-linux64.zip"
+sudo apt-get install firefox
+
+wget "https://github.com/mozilla/geckodriver/releases/download/v0.33.0/geckodriver-v0.33.0-linux64.tar.gz"
 
 # Verificar se o download foi bem-sucedido
 if [ $? -eq 0 ]; then
